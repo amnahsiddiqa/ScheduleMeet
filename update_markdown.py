@@ -23,7 +23,7 @@ if __name__ == "__main__":
     #actual copy link of google sheet would look like thuis : https://docs.google.com/spreadsheets/d/1cGfIostiPJAxmo_zINnHGHSthbUZ8x9R90-C4oZvTt0/edit?usp=sharing
     # Use the CSV export link for your Google Sheet
     #Solution: Update the URL to include the /export?format=csv parameter:
-    CSV_URL = "https://docs.google.com/spreadsheets/d/1cGfIostiPJAxmo_zINnHGHSthbUZ8x9R90-C4oZvTt0/edit?usp=sharing/export?format=csv"
+    CSV_URL = "https://docs.google.com/spreadsheets/d/1cGfIostiPJAxmo_zINnHGHSthbUZ8x9R90-C4oZvTt0/export?format=csv"
     df = fetch_google_sheet_csv(CSV_URL, sheet_name='Sheet1')
 
     update_markdown(df)
