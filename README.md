@@ -1,4 +1,4 @@
-**Github Actions to update markdown for schedule/etc.**
+**Github Actions to update markdown for schedule/etc. Follow the guidelines in tutorial.**
 
 # 2025
 
