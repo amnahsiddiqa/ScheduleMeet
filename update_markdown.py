@@ -15,6 +15,7 @@ def fetch_google_sheet_csv(url, sheet_name=None):
 def update_markdown(df, filename="README.md"):
     """Convert DataFrame to Markdown and update README.md."""
     with open(filename, 'w') as f:
+        f.write("**Github Actions to update markdown for schedule/etc.**\n\n")
         f.write("# 2025\n\n")
         f.write(df.to_markdown(index=False))
     print("README.md has been updated.")
